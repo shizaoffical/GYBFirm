@@ -1,0 +1,268 @@
+/* ///////////////////////////////////////////////////////////////////Hero Section */
+.hero-section-main-div {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    overflow: hidden;
+    margin: 2rem 0;
+}
+
+.hero-section-div-a {
+    word-wrap: break-word;
+    line-height: 32px;
+    padding: 2rem 0;
+    text-align: left;
+    width: 30.4rem;
+}
+.client-say-youtube {
+    height: 24rem;
+    border-radius: 20px;
+    width: 35rem;
+    border: 12px solid white;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.hero-section-heading {
+    font-weight: 700;
+}
+
+.hero-section-text {
+    padding: 1rem 0;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+.hero-section-btn {
+    margin: 1rem 0 !important;
+}
+
+.hero-section-image-1 {
+    height: 26rem;
+}
+
+
+/* /////////////////////////  particpants  ///////////////////////////// */
+.particpants {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    padding: 3rem 0;
+    margin: 2rem 0  ;
+    background-color: #fcfcfc;
+}
+
+.particpants-logo {
+    height: 3rem;
+}
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////// youtube-video */
+.youtube-video {
+    display: flex;
+    justify-content: center;
+}
+
+.youtube-video-container {
+    display: flex;
+    width: 100%;
+    height: 30rem !important ;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 4rem  0;
+    position: relative;
+    background-color: var(--light-Secondary-color);
+}
+
+.youtube-video-tag {
+    top: 4rem;
+    height: 31rem;
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    border: 12px solid white;
+    max-width: 70%;
+    margin-bottom: 2rem !important;
+    display: block;
+    border-radius: 20px !important;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.youtube-video-tag::-webkit-media-controls-panel {
+    border-radius: 20px !important;
+}
+/* ///////////////////////////////////////////////////////////  fees */
+.fees {
+    margin: 6rem 0 2rem 0;
+    width: 59%;
+}
+.fees-button{
+    padding: 9px 1.2rem !important;
+}
+
+.AboutBuisnessSectionA{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 5rem 0;
+}
+.AboutBuisnessSectionA-div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;  
+}
+.tool-row{
+display: flex;
+flex-direction: row-reverse;
+}
+
+/* //////////////////////////////////////////   asthetics-image */
+.asthetics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom, white, var(--light-primary-color));
+}
+.asthetics-image{
+    width: 85%;
+    margin: 5rem auto;
+}
+/* //////////////////////////////////////////////  trust-pilot-excellence-a */
+.trust-pilot-excellence-a, .trust-pilot-excellence-a-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;text-align: center;
+}
+.trust-pilot-excellence-a{
+    margin: 6rem auto;
+
+}
+.trust-pilot-excellence-a-row{
+    width: 70%;
+}
+.trust-pilot-excellence-a-icon{
+    color: #0ca678!important;
+}
+.trust-pilot-excellence-a-heading{
+    font-size: 48px;
+    font-weight: 700 ;
+    line-height: 59px;
+}
+.trust-pilot-excellence-a-join-buisness{
+   margin: 2rem 0 0 0 !important;
+}
+/* /////////////////////////////////////////////////// client-say */
+.client-say{
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(2,1fr);
+    margin: 5rem 0 0 0;
+}
+.client-say-col{
+    padding: 0 2rem;
+}
+.client-say-youtube{
+    border-radius: 20px;
+    /* height: 31rem; */
+    width: 100% !important;
+    cursor: pointer;
+    border: 12px solid white;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.client-say-youtube::-webkit-media-controls-panel {
+    border-radius: 20px !important;
+}
+.client-say-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1D1D1D;
+    margin-top: 0;
+}
+.client-say-col:hover .client-say-text{
+color: var(--Secondary-color);
+}
+/* /////////////////////////////////////  clients */
+.clients{
+    padding: 4rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+    margin: 5rem 0 ;
+    background-color: var(--light-Secondary-color);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* /////////////////////////////////////////////   trust-pilot-excellence-b */
+.trust-pilot-excellence-b-btn{
+    margin: 3rem 0 0 0;
+    padding: 0.6rem 2rem  !important;   
+}
+/* ///////////////////////////////////////// user-need */
+.user-need{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 70%;
+    margin: 0 0 4rem;
+}
+.user-need-section{
+    background-color: var(--light-primary-color) !important;
+}
+.user-need-icon{
+    color: var(--primary-color) !important;
+}
+.user-need-section:hover .user-need-icon{
+    color: var(--Secondary-color) !important;
+}
+/* ///////////////////////////////////////////   email-section */
+.email-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 ;
+}
+.email-section-image{
+  height: 3rem;
+width: 10rem;}
+.email-section-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.email-section-input{
+    border: 1px solid var(--primary-color);
+border-radius: 20px;
+padding: 6px 1.3rem;
+outline: none;
+}
+.email-section-btn{
+    font-size: 16px !important;
+}
+/* ////////////////////////////////////////////// faq-main */
+.faq-main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: left;
+   gap: 1rem;
+}
+.faq-heading{
+    font-weight: 700;
+ font-size: 30px;
+    text-align: center;
+    padding: 2rem 0 3rem;
+}
+.faq-btn{
+    padding: 8px 3rem !important;
+    margin: 2rem 0 0;
+
+}

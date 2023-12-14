@@ -1,0 +1,283 @@
+/* /////////////////HERO SECTION ////////// */
+
+.green-ratings {
+  color: #0ca678;
+}
+
+/*////////////////// LLC MIND SECTION //////////// */
+
+.discover-benefits-section {
+  padding: 10rem 0;
+}
+
+/*////////////////////////////////////////// LLC Check Section  */
+.llc-check-section {
+  display: flex;
+  align-items: flex-start;
+  padding: 3rem 0;
+}
+.llc-check-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.llc-checkbox {
+  
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: none;
+  padding: 0.4rem !important;
+  gap: 1rem;
+}
+.llc-check-icon {
+  margin: 0 !important;
+  border: 10px solid white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 1rem;
+}
+.llc-check-head {
+  margin-top: 1rem !important;
+}
+
+/*/////////////////////////////////////////////// Three step section  */
+.three-step-section {
+  padding: 3rem 10rem;
+}
+.three-step-head {
+  text-align: center;
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: bold;
+  margin-bottom: 1rem !important;
+}
+.three-step-para {
+  font-weight: bold;
+  text-align: center;
+  font-size: 26px;
+  color: #1d1d1d;
+  padding-bottom: 3rem;
+}
+.three-step-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.three-step-flex2 {
+  border-radius: 24px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.three-step-checkbox {
+  flex-direction: column;
+  padding: 3rem 0 2rem 3rem;
+}
+.three-step-number {
+  padding: 4px 12px !important;
+  margin-bottom: 1rem !important;
+}
+.three-step-img {
+  width: 350px;
+}
+
+/* ///////////////////PLACE ORDER //////////////////////// */
+.place-order-section {
+  padding: 5rem 3rem 3rem 3rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 24px;
+}
+.place-head {
+  padding: 2rem 16rem !important;
+  font-size: 40px;
+}
+.place-icon {
+  width: 6rem;
+  display: block;
+  margin: 0 auto;
+}
+.place-order-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: rgba(241, 246, 255, 1);
+  padding: 3rem;
+  border-radius: 14px;
+}
+.place-order-other-color{
+background-color: rgba(255, 241, 227, 1.0);
+}
+.place-order-S-color{
+background-color: rgba(253, 247, 251, 1.0);
+}
+.place-order-nonprofit-color{
+  background-color: rgba(244, 250, 245, 1.0);
+}
+.place-order-flex2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+.place-head2 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.place-para {
+  font-size: 16px;
+  color: #4e4e4e;
+  line-height: 24px;
+}
+.place-order-flex3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+.place-icon2 {
+  width: 2.5rem;
+}
+.place-head3 {
+  font-size: 20px;
+}
+.place-head4 {
+  padding: 1rem 10rem;
+}
+.place-rating {
+  padding: 5rem 0;
+}
+.llc-clients {
+  background-color: white;
+}
+
+/* FAQ SECTION ////////////////////// */
+.faq-llc {
+  background:linear-gradient(to bottom, white, var(--light-primary-color));
+  width: 100%;
+  padding: 0rem 20rem 2rem;
+  box-shadow: none;
+}
+.faq-llc-div {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  padding: 1.3rem 1.2rem;
+  color: #1d1d1d;
+}
+
+/* MEDIA QUERRIES ////////////////////////// */
+@media (max-width: 1200px) {
+  .three-step-section {
+    padding: 3rem 5rem;
+  }
+  .place-head {
+    padding: 2rem 8rem !important;
+  }
+  .faq-llc {
+    padding: 2rem 14rem;
+
+  }
+}
+
+@media (max-width: 992px) {
+  .three-step-section {
+    padding: 3rem 1rem;
+  }
+  .place-head {
+    padding: 2rem 0 !important;
+  }
+  .faq-llc {
+    padding: 2rem 8rem;
+
+  }
+}
+
+@media (max-width: 850px) {
+  .llc-check-section {
+    flex-direction: column;
+  }
+  .faq-llc {
+    padding: 1.5rem 5rem;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .three-step-section {
+    padding: 3rem 0;
+  }
+  .three-step-checkbox {
+    padding: 3rem 2rem;
+  }
+  .three-step-flex2 {
+    flex-direction: column-reverse;
+  }
+  .three-step-img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .three-step-head {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .three-step-para {
+    font-size: 18px;
+  }
+  .place-order-flex {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 1rem;
+  }
+  .place-order-section {
+    padding: 3rem 1rem;
+  }
+  .place-order-flex2 {
+    padding: 0;
+  }
+  .place-head2 {
+    font-size: 16px;
+  }
+  .faq-llc {
+    padding: 1.5rem 2rem;
+
+  }
+  .place-head3 {
+    font-size: 14px;
+}
+  .palce-para2{
+font-size:12px !important;
+  }
+  .place-order-flex3 {
+    gap: 1rem;
+}
+.place-rating {
+    padding: 2rem 0;
+}
+.faq-llc-div {
+    padding: 1.3rem 0.2rem;
+}
+}
+@media (max-width: 450px) {
+  .three-step-img {
+    width: 100%;
+  }
+  .faq-llc {
+    padding: 1.5rem 1rem;
+
+  }
+  .llc-check-icon {
+    text-align: center;
+    background-color: #63e6be !important;
+    margin: 0;
+    width: 3.2rem !important;
+    height:3rem !important;
+    border: 10px solid white;
+    font-size: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 1rem;
+  }
+}

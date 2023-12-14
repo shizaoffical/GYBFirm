@@ -1,0 +1,360 @@
+.andement-row-a-image {
+    height: 20.1rem !important;
+}
+
+.andement-row-a {
+    margin: 5rem 0 !important;
+}
+
+.andement-row-b {
+    margin: 7rem 0 !important;
+    flex-direction: row-reverse !important;
+}
+
+.andement-row-c-image {
+    height: 27.4rem;
+}
+
+.andement-row-d {
+    margin: 5rem 0 6rem;
+}
+
+.andement-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0 7rem;
+}
+
+.andement-number-div {
+    width: 60%;
+    display: flex;
+
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.andement-number-component-number {
+    padding: 4px 12px !important;
+    margin-bottom: 1rem !important;
+}
+.get-restated-text{
+    margin-top: 0 !important;
+}
+
+.virtual-address-annountcement {
+    background:linear-gradient(to bottom, white, var(--light-primary-color)); 
+}
+.virtual-address-annountcement-2{
+    background-color: white;
+    border-radius: 20px !important;
+}
+
+.virtual-address-section {
+    margin: 3rem 0 5rem !important;
+}
+
+.virtual-address-avaliable {
+    margin: 3rem 0;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.virtual-address-avaliable-states {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.virtual-address-row {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center !important;
+    padding: 4rem 0;
+    background:linear-gradient(to bottom, white, var(--light-primary-color));   
+}
+
+.virtual-address-row-div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    gap: 1rem;
+}
+
+.virtual-address-row-col {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.virtual-address-row-check {
+    width: 25rem;
+}
+
+.virtual-address-row-b {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+/* /////////////////////////////////// ein */
+
+.ein-row {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+
+.ein-row-btn-div {
+    background-color: white;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.199);
+    display: flex;
+    width: 100%;
+    gap: 0.7rem;
+    padding: 0.5rem;
+    margin: 1rem 10rem !important;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.ein-row-btn {
+    border: 1px solid transparent;
+
+    width: 100%;
+    border-radius: 20px;
+    padding: 1rem auto !important;
+    transition: all 1s;
+    background-color: white !important;
+
+}
+
+.ein-row-btn:hover {
+    background-color: var(--light-Secondary-color) !important;
+}
+
+.ein-row-btn-active {
+    border: 2px solid transparent;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--Secondary-color);
+    color: white;
+    padding: 1rem auto !important;
+
+}
+
+.ein-row-data {
+    padding: 2rem 1rem;
+}
+
+.ein-row-data-component {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.ein-row-data-component-card {
+    width: 20rem;
+    height: 26rem;
+}
+
+.doing-buisness-row {
+    margin: 7rem 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column !important;
+    gap: 1rem !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.doing-buisness-image-mind {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    margin: 4rem 0 !important;
+}
+
+.register-agent-checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 4rem 0;
+}
+
+.doing-buisness-check {
+
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 2rem !important;
+}
+
+.doing-buisness-checkbox {
+
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.doing-buisness-image-mind-2 {
+    margin: 5rem 0 !important;
+}
+
+.doing-buisness-checkbox-section-2 {
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.foreign-qualification-check-col {
+
+    text-align: left !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foreign-qualification-check {
+
+    display: flex !important;
+    align-items: flex-start;
+    padding: 0 !important;
+    gap: 10px !important;
+    width: 13rem;
+
+    box-shadow: none !important;
+}
+
+.foreign-qualification-check-div {
+    display: flex !important;
+    gap: 10px !important;
+    margin: 1rem 0;
+}
+
+.foreign-qualification-check-text {
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 17px;
+    font-size: 14px !important;
+}
+
+.foriegn-qualification-check-icon {
+    padding: 10px !important;
+    width: 2.5rem !important;
+    height: 2.2rem !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+}
+
+.buisness-lisene-premit-btn-div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.buisness-lisene-premit-packages-main{
+    background-color: #F2F6FF;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.buisness-lisene-premit-packages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+    border-radius: 10px;
+}
+.buisness-lisene-premit-component:hover {
+
+    box-shadow: 0 4px 4px var(--primary-color);
+}
+.buisness-lisene-premit-icon-div{
+    display: block !important;
+}
+.buisness-lisene-premit-component:hover .buisness-lisene-premit-heading {
+color: var(--Secondary-color) !important;
+font-size: 1px !important;
+}
+.buisness-lisene-premit-heading {
+    font-size: 16px !important;
+    transition: all 0.5s;
+}
+
+.buisness-lisene-premit-component {
+    padding: 0rem 1rem !important;
+    height: 4rem !important;
+    border-radius: 10px !important;
+    width: 13rem;
+    background-color: white !important;
+}
+
+.buisness-lisene-premit-div-component {
+    gap: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s-crop-election{
+    height: fit-content !important;
+    width: 30rem;
+    gap: 10px !important;
+    display: flex !important;
+    text-align: left !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    padding: 10px !important;
+}
+.s-crop-election-col{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.s-crop-election-row{
+    background-color: transparent;
+}
+
+.registration-agent-left-col-image{
+    width: 100%;
+}
+.dissolve-company-video{
+    height: 22em !important;
+    width: 34rem !important;
+    margin-bottom: 2rem !important;
+}
+.get-trade-mark-announcement{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto ;
+}
+.s-crop-election-xmark{
+    display: flex !important;
+    gap: 1rem !important;
+    margin: 1rem 0 !important;
+}
+.premit-btn{
+    font-size: 12px !important;
+}

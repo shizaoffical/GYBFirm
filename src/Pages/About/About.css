@@ -1,0 +1,347 @@
+.about-us-image {
+
+    max-width: 40%;
+    border-radius: 20px;
+
+}
+
+.about-us-main-div {
+    display: flex;
+    gap: 1rem;
+    margin: 5rem auto;
+    flex-direction: row-reverse;
+}
+
+.about-us-heading {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.about-us-div-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-us-main-div-text {
+    color: var(--Secondary-color);
+}
+
+.about-us-main-div-text:hover {
+    color: var(--primary-color);
+}
+
+.about-us-main-div-2 {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.about-us-main-div-2-image {
+    position: static;
+    width: 40%;
+}
+
+
+.about-us-div-b {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 60%;
+}
+
+.about-us-div-b-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-us-div-3 {
+    margin: 10rem 0;
+    text-align: center;
+}
+
+.about-us-main-div-d-image{
+    max-width: 40%;
+}
+.about-us-div-d-icon {
+    border: 2px solid var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.about-div-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto 7rem;
+    gap: 1rem;
+
+}
+
+/* /////////////////////////////////choose us page */
+.choose-us-div-a {
+    margin: 5rem 0;
+}
+
+.choose-us-div-a-text {
+    margin: 10px 0;
+    font-size: 23px;
+}
+
+/* .....................  choose-us-div-b */
+.choose-us-div-b {
+    display: flex;
+    gap: 1rem;
+    margin: 6rem 0;
+}
+
+.choose-us-div-b-check {
+    text-align: center !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.062) !important;
+}
+
+.choose-us-div-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 5rem 0;
+
+}
+
+.choose-us-div-c-icon {
+    font-size: 2rem;
+    color: var(--Secondary-color);
+}
+
+.choose-us-div-c-text {
+    font-size: 20px;
+
+}
+
+.choose-us-div-d {
+    flex-direction: row-reverse !important;
+}
+
+/* ................................. choose-us-div-e */
+.choose-us-div-e {
+    display: flex;
+    margin: 5rem 0;
+    padding: 3rem 2rem;
+    justify-content: space-between;
+    background-color: #0071bc13;
+    border-radius: 20px;
+}
+
+.choose-us-div-e-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.choose-us-div-f {
+    margin: 9rem 0 !important;
+    flex-direction: row-reverse;
+}
+
+.choose-us-div-g {
+    margin: 9rem 0 !important;
+}
+
+/* /////////////////////////////////////// contact us */
+.contact-us-div-a {
+    display: flex;
+    margin: 4rem 0;
+    justify-content: space-between;
+}
+
+.contact-us-div-a-col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.contact-us-div-b {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem 7rem;
+    margin: 5rem 0;
+    background-color: var(--light-Secondary-color);
+}
+.contact-us-heading{
+    color: var(--Secondary-color) !important;
+}
+.contact-us-div-c {
+    text-align: center;
+    border-top-right-radius: 3rem;
+    padding: 3rem 0;
+    background:linear-gradient(to bottom,var(--light-primary-color)  , var(--light-Secondary-color) );
+    border-bottom-left-radius: 3rem;
+    margin: 5rem 0;
+
+}
+
+.contact-us-div-c-text span i {
+    color: var(--Secondary-color);
+    padding-right: 2px;
+}
+.contact-us-div-c-text {
+    color: var(--Secondary-color);
+}
+
+.contact-us-div-c-text:hover {
+    color: var(--primary-color);
+}
+
+.contact-us-div-c-text-1 {
+    color: var(--primary-color);
+
+}
+
+.new-clients-div-a {
+    width: 50%;
+}
+
+.choose-us-div-d-need-component {
+    background-color: white !important;
+    border-radius: 0px !important;
+    padding: 1rem 1rem;
+border-radius: 20px !important;
+}
+
+.choose-us-div-d-components {
+    background:linear-gradient(to bottom, white, var(--light-primary-color));
+    padding: 4rem 0 0;
+}
+
+.choos-us-div-e {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: center;
+    padding: 2rem 0;
+    background:linear-gradient(to bottom, white, var(--light-Secondary-color) );
+
+}
+
+.choos-us-div-e-component {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+    width: 80%;
+
+}
+
+.choos-us-div-e-need-component-heading {
+    font-size: 14px !important;
+}
+
+.choos-us-div-e-need-component {
+    padding: 0rem 1rem !important;
+    height: 5rem !important;
+    width: 23rem;
+    background-color: white !important;
+}
+
+.choose-us-div-e-need-div-component {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /////////////////////////////////////////////// */
+.testimonials-a {
+    margin: 5rem 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-a-div {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.testimonials-b-btn {
+    padding: 0.6rem 2rem !important;
+}
+
+/* ///////////////////////////////////// */
+.carousel {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 20px;
+    background-color: #F2F6FF;
+    height: 38rem;
+
+
+}
+
+.carousel-items {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.carousel-controls {
+    display: flex;
+    gap: 1rem;
+}
+
+.carasoul-control-btn {
+    background-color: var(--Secondary-color);
+    padding: 7px 10px;
+    font-size: 15px !important;
+    color: white;
+    border: none !important;
+}
+
+.carousel-controls-dropdown-select {
+    border: 0.2px solid black !important;
+    outline: none;
+}
+
+.carousel-controls-dropdown-select:focus {
+    box-shadow: none;
+}
+
+.carasoul-control-button-div {
+    display: flex;
+    gap: 7px;
+}
+
+.testimonials-b {
+    display: flex;
+    margin: 2rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-b-div {
+    display: flex;
+    gap: 1rem;
+}
+.about-para-div{
+    background:linear-gradient(to bottom, white, var(--light-primary-color));
+}
+.about-para-div-text{
+width: 60%;
+}

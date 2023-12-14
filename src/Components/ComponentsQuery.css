@@ -1,0 +1,481 @@
+@media (max-width: 1240px) {
+    .card:hover {
+        transform: translateY(0) !important;
+    }
+    .clients-request-main-div{
+        width: 65%;
+    }
+
+}
+
+
+
+
+@media (max-width: 1199px) {
+    .image-mind-image {
+        height: 26rem !important;
+    }
+
+    .join-buisness {
+        gap: 10px;
+    }
+
+    .join-buisness-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+
+
+@media (max-width: 1100px) {
+
+
+   
+    .clients-request-main-div{
+        width: 75%;
+    }
+
+}
+
+
+@media(max-width :992px){
+    
+    .join-buisness-text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .join-buisness-image{
+        max-height: 2.4rem;
+    }
+    .need-component{
+        padding: 1rem 1.6rem;
+    }
+    .need-component-image{
+        height: 2.4rem;
+    }
+    .need-component-heading{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .need-component-text{
+        font-size: 16px;
+    }
+      
+    .clients-request-main-div {
+        width: 100%;
+    }  
+    .term-condition-heading{
+        margin: 6rem auto !important;
+        width: 100%;
+        font-size: 30px;
+    }
+    .term-condition-div{
+        margin: 1rem 0; 
+    }
+    .card-3{
+        padding: 1rem 0.9rem;
+        gap: 0.9rem;
+    }
+    .card-3-col-a{
+        width: 100%;
+        height: 6.7rem;
+    }
+    
+.entity-type-section {
+    width: 33.3rem;
+
+}
+.image-mind-row-image{
+    width: 4rem;
+ }
+}
+
+
+
+
+
+@media (max-width : 950px) {
+
+
+    .image-mind-heading {
+        font-size: 32px;
+    }
+
+    .image-mind-image {
+        height: 22.4rem !important;
+    }
+
+    .vsb-section{
+        margin:  1rem 0 2rem;
+    }
+    .vsb-section-main{
+        width: 90%;
+    }
+    
+    .vsb-section-row{
+        gap: 10px;
+        flex-direction: column !important;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        padding: 0rem 0rem;
+        position: relative;
+    }
+    
+    .vsb-section-vs-2 , .vsb-section-vs-1{
+        position: initial;
+    }
+    .vsb-section-col{
+        position: initial;
+        flex-direction: column;
+        width: 16rem;
+        padding: 1rem 1rem;
+        height: 24rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .image-mind-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .image-mind-image {
+        height: 20rem !important;
+    }
+
+    .image-mind-col {
+        align-items: center !important;
+        text-align: center;
+justify-content: center !important;
+    }
+    .need-component{
+        padding: 1rem 2rem;
+    }
+    .need-component-image{
+        height: 2.4rem;
+    }
+    .need-component-heading{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .need-component-text{
+        font-size: 12px;
+    }
+    .need-component-icon-div{
+       display: none;
+    }
+    .text-component {
+        font-size: 15px !important;
+    }
+    .need-component {
+        
+        height: 6rem;
+    }
+    .clients-request-main-div{
+        width: 100%;
+    }
+
+    .clients-request-div-input{
+        padding: 5px 0;
+    }
+    .clients-request-div{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        gap: 0.4rem;
+    }
+    .entity-type-section {
+        width: 25.3rem;
+    padding: 2rem 2rem;
+
+    }
+    .entity-type-section-text {
+        text-align: left !important;
+    }
+    .image-mind-row-image{
+        width: 3rem;
+     }
+     .vs-section-row{
+        position: relative;
+        flex-direction: column !important;
+        justify-content: flex-start;
+     
+        width: auto;
+        height: 35rem;
+        border-radius: 20px;
+        padding: 2rem 1rem;
+        position: relative;
+    }
+    .vs-section-col{
+        position: initial;
+        text-align: center;
+        width: 18rem;
+        height: auto;
+        padding:2rem 1rem  ;
+        
+        height: auto;
+    }
+    .vs-section-vs{
+        position: initial;
+        margin: 10px 0 !important;
+    }
+    
+    .vs-section-col-1{
+   margin-top: 0;
+    }
+    .card-2-image {
+        height:3.4rem ;
+    }
+}
+
+
+
+
+@media (max-width: 571px) {
+
+
+    .image-mind-heading {
+        font-size: 28px;
+        margin: 1rem 0 0 0 !important;
+    }
+
+}
+
+
+
+
+@media(max-width:550px){
+    .term-condition-heading{
+        margin: 3rem auto !important;
+        font-size: 26px;
+    }
+    .term-condition-main{
+        margin: 1rem auto  2.4rem;
+    }
+    .term-condition-div{
+        margin: 0.8rem 0;   
+    
+    }
+    .image-mind-heading {
+        font-size: 24px;
+        margin: 1rem 0 0 0 !important;
+    }
+
+    .image-mind-text {
+        font-size: 14px !important;
+    }
+    .text-component {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+
+
+@media (max-width: 525px){
+    .image-mind-image{
+        height: 16rem !important;
+    }
+    .need-component{
+        padding: 0.6rem 10px;
+        gap: 7px;
+    }
+    .need-component-image{
+        height: 2rem;
+    }
+    .need-component-heading{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .need-component-text{
+        font-size: 10px;
+    }
+    .need-component-icon-div{
+       display: none;
+    }
+
+    .faq-answer {
+        margin: 0.4rem auto 0 !important;
+    }
+    .faq-answer  li{
+        font-size: 12px ;
+        line-height: 18px;
+        
+    }
+    .faq-section-main-div {
+        padding: 0 1rem ;
+    }
+    .faq-section-heading{
+        font-size: 14px;
+    }
+    .faq-section-btn{
+        padding: 1px 5px;
+        font-size: 12px;
+    }
+    .faq-section {
+        padding: 0.6rem 0;
+    }
+    .faq-answer   {
+
+        margin: 0.5rem 1.3rem 10px !important ;
+    }
+    .check-section {
+        padding: 0.8rem ;
+        translate:  0 0;
+    }
+
+    .check-section-heading {
+        font-size: 16px;
+    }
+    .check-section-text{
+        font-size: 14px;
+        margin-top: 0.4rem !important;
+    }
+    .anouncement-section-div-text{
+        font-size: 13px;
+        padding-bottom: 8px;
+
+    }
+    .anouncement-section-div-text-2{
+        font-size: 12px;
+    }
+    .need-component {
+        
+        height: 5rem;
+    }
+    .buisness-information{
+        padding: 0.8rem 0.2rem;
+    
+    }
+    .buisness-information-ul-li{
+       font-size: 10px;
+       margin: 3px 0;
+    }
+    .card-3-col-b-text{
+        font-size: 14px;
+    }
+    .scroll-component-text{
+      font-size: 14px;
+    }
+    .entity-type-section {
+        width: 22.3rem;
+    padding: 1.4rem 2rem;
+
+    }
+    .entity-type-section-btn {
+        padding: 0.3rem 2rem !important;
+        margin-top: 12px;
+        font-size: 14px;
+    }
+    
+}
+
+
+@media(max-width : 412px) {
+
+    .Simple-Companies,
+    .ranking-companies {
+        text-align: left;
+        line-height: 20px;
+        margin: 1.3rem 0;
+        gap: 8px;
+    }
+    .image-mind-image{
+        height: 14rem !important;
+    }
+
+
+    .Simple-Companies-heading ,.ranking-companies-heading {
+        font-size: 14px;
+    }
+    
+    .Simple-Companies-text {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .ranking-companies-icon {
+        font-size: 10px;
+    }
+    .ranking-companies-text{
+        font-size: 13px;
+    }
+    
+    .text-component {
+        font-size: 13px !important;
+    }
+    .faq-section-heading {
+        font-size: 12px;
+    }
+    .need-component-div{
+        gap: 0.6rem;
+    } 
+    .check-2{
+       gap: 10px;
+    }
+    .check-2-icon{
+        border: 8px solid white;
+        padding: 0.5rem 0.7rem ;
+    }
+    .check-2-text{
+        font-size:15px;
+
+    }
+    .image-mind-heading {
+        font-size: 18px;
+        margin: 1rem 0 0 0 !important;
+    }
+    .entity-type-section {
+        width: 17.8rem;
+    padding: 1rem 1rem;
+
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/* / STATE COMPONENTS CSS ////////////////////// / */
+@media(max-width : 540px) {
+    .state-link-box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+      flex-direction: column;
+      padding: 2rem 0rem !important;
+    }
+    .left,
+    .right {
+      width: 100%;
+    }
+    .left{
+        height: auto;
+        position: initial;
+    }
+  }

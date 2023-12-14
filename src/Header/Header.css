@@ -1,0 +1,260 @@
+/* HEADER CSS ///////////// */
+.navbar {
+  height: 80px;
+  padding: 0 !important;
+  box-shadow: 0px 2px 5px #0000001c;
+  border-bottom: 1px solid #f5f5f5;
+  position: fixed !important;
+  top: 0;
+  margin-bottom: 3rem !important;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 999 !important;
+}
+
+.header-phone-icon{
+  border: 2px solid var(--primary-color);
+  padding: 6px ;
+  border-radius: 50%;
+}
+
+.header-logo {
+  width: 7rem;
+}
+
+.nav-link {
+  padding: 26px 0 !important;
+  margin: 0 1rem;
+  transition: all 1s;
+  color: var(--primary-color);
+  font-size: 16px;
+  border-bottom: 1px solid transparent;
+  position: relative;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  background-color: var(--Secondary-color);
+  height: 2px;
+  width: 0%;
+  left: 0px;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+.fa-arrow-up,
+.fa-arrow-down {
+  font-size: 14px;
+  padding-left: 10px;
+  color: var(--primary-color);
+}
+
+/* HEADER 2 LINK  */
+.header-links2 {
+  gap: 10px;
+}
+
+.header-tel-link {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.nav-link2:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid transparent;
+}
+
+
+
+/* HEADER BTN ///////// */
+.navbar-btn {
+  font-size: 16px;
+  padding: 6px 24px;
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.navbar-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.navbar-btn2 {
+  width: 12rem;
+  margin: 10px 0;
+  font-size: 14px;
+  padding: 6px 24px;
+  background-color: var(--primary-color) !important;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-btn2:hover {
+  background-color: white !important;
+  color: var(--primary-color) !important;
+}
+
+.dropdown-menu {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 10px;
+  padding: 1rem 1rem;
+  border: none !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 86vw;
+  left: -8rem;
+}
+
+.dropdown-menu2 {
+  width: 80vw;
+  left: -14rem;
+  grid-template-columns: repeat(3, 1fr) !important;
+  padding: 2rem;
+}
+
+.dropdown-menu3 {
+  width: 200%;
+  grid-template-columns: 1fr !important;
+  left: 0;
+}
+
+/* SERVICES DROPDOWN CSS//////////// */
+
+.services-drop-flex1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 12px;
+  padding-bottom: 6px;
+}
+
+.header-drop-head1 {
+  font-size: 12px;
+  color: #868e96;
+}
+
+.header-drop-link1 {
+  color: #228be6;
+  font-weight: bold;
+}
+
+.services-head-div2 {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.services-drop-flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+}
+
+.services-drop-flex2-2 {
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.services-head-img {
+  width: 3.8rem;
+}
+
+.s-head-inner-flex1 {
+  color: #868e96;
+  transition: all 0.2s;
+  align-items: flex-start;
+}
+
+.s-head-inner-flex1:hover {
+  color: var(--primary-color);
+}
+
+.s-head1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.p-para {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.p-para:hover {
+  font-size: 12px;
+  color: var(--Secondary-color) !important;
+}
+
+
+.services-inner-arrow {
+  color: white;
+  background-color: var(--Secondary-color);
+  padding: 0.6rem;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.p-para2 {
+  color: rgb(117, 117, 117);
+}
+
+.p-para2:hover {
+  color: rgb(117, 117, 117) !important;
+
+}
+
+.services-drop-link {
+  color: #228be6;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  gap: 12px;
+}
+
+.services-drop-link:hover {
+  color: var(--Secondary-color);
+}
+
+.services-head-div3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.services-div3-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mobile-icon,
+.navbar-toggler {
+  width: 2.7rem !important;
+
+}
+
+.navbar-toggler {
+  padding: 0 !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.header-tel-link2 {
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 10px 0;
+}

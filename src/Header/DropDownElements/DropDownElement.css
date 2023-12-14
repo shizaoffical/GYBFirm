@@ -1,0 +1,29 @@
+.buisness-element {
+    display: flex;
+    /* / justify-content: center; / */
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.7rem 0;
+}
+
+.buisness-element-icon {
+    color: var(--primary-color);
+}
+
+.buisness-element-text {
+   transition: all 0.2s;
+   text-transform: capitalize;
+}
+.buisness-element-text:hover {
+    color: var(--primary-color);
+
+}
+.blue-text-element{
+    color: #023e8a;
+    font-size: 16px;
+    font-weight: 700 ;
+
+}
+.blue-text-element:hover{
+    color: var(--Secondary-color);
+}

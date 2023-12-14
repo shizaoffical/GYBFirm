@@ -1,0 +1,554 @@
+  /* /////////////////////////  particpants  ///////////////////////////// */
+
+  @media(max-width:5500px) {
+      .clients {
+          padding: 4rem 5rem;
+      }
+  }
+
+  @media(max-width:1430px) {
+      .clients {
+          padding: 4rem 4rem;
+      }
+  }
+
+  @media (max-width: 1199px) {
+
+      .fees {
+          margin: 4rem 0 2rem 0 !important;
+      }
+
+      .card:hover {
+          transform: translateY(0);
+      }
+
+      .youtube-video-container {
+          margin: 3rem 0;
+      }
+
+      .youtube-video-tag {
+          height: 27rem;
+
+      }
+
+  }
+
+
+
+
+
+
+
+  @media (max-width: 1150px) {
+
+      .youtube-video-container {
+          height: 27.9rem !important;
+      }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 1070px) {
+
+      .youtube-video-container {
+          height: 26rem !important;
+      }
+
+      .AboutBuisnessSectionA {
+          margin: 3rem 0 2rem 0;
+      }
+  }
+
+
+
+
+
+
+
+
+  /* ************************* Hero Section  **************************** */
+  @media (max-width : 992px) {
+      .hero-section-main-div {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+      }
+
+      .grid-item:nth-child(2) {
+          order: -1;
+      }
+
+      .hero-section-image-1 {
+          width: 100%;
+
+      }
+
+      .youtube-video-container {
+          height: 25rem !important;
+      }
+
+      .fees {
+          margin: 8rem 0 2rem 0;
+          width: 68%;
+      }
+
+      .fees-button {
+          padding: 7px 0.9rem !important;
+      }
+
+      /* /////////////////////////////////////////////////// client-say */
+      .client-say {
+          grid-template-columns: repeat(1, 1fr);
+          text-align: center;
+
+          margin: 2rem 0 0 0;
+      }
+
+      .client-say-col {
+          padding: 0 0rem;
+      }
+
+      .client-say-heading {
+          font-size: 34px;
+          line-height: 44px;
+      }
+
+      .particpants {
+          gap: 2.4rem;
+          padding: 2.4rem 0;
+          margin: 2.4rem 0;
+      }
+
+      .youtube-video-tag {
+          height: 24rem !important;
+
+      }
+
+      .trust-pilot-excellence-a-row {
+          width: 90%;
+      }
+
+      .clients {
+          padding: 3rem 1rem;
+          margin: 4rem 0;
+          grid-template-columns: repeat(2, 1fr);
+      }
+
+      .trust-pilot-excellence-a {
+          margin: 4.5rem auto;
+
+      }
+
+      .user-need {
+          gap: 1rem;
+          width: 90%;
+          margin: 0 0 3rem;
+      }
+
+      .email-section {
+          flex-direction: column;
+          gap: 10px;
+          margin: 1rem 0;
+      }
+
+      .faq-heading {
+          padding: 1rem 0 2rem;
+      }
+
+      .faq-btn {
+          margin: 1.4rem 0 0;
+      }
+  }
+
+
+
+
+  @media (max-width : 950px) {
+      .hero-section-image-2 {
+          display: block;
+          height: 22rem !important;
+      }
+
+      .hero-section-image-1 {
+          display: block;
+          position: initial;
+      }
+
+
+      .hero-section-div-a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: auto;
+          text-align: center;
+      }
+
+      .trust-pilot-excellence-a-row {
+          width: 100%;
+      }
+
+      .trust-pilot-excellence-a-heading {
+          font-size: 35px;
+          font-weight: 700;
+          line-height: 45px;
+      }
+
+      .youtube-video-container {
+          height: 21rem !important;
+      }
+
+      .youtube-video-tag {
+          height: 21rem !important;
+
+      }
+
+      .trust-pilot-excellence-b-btn {
+          margin: 2rem 0 3rem;
+          padding: 0.5rem 1.6rem !important;
+      }
+  }
+
+
+
+
+
+
+  @media (max-width: 860px) {
+
+      .youtube-video-container {
+          height: 21.4rem !important;
+      }
+
+      .trust-pilot-excellence-a-row {
+          width: 85%;
+      }
+
+      .trust-pilot-excellence-a-join-buisness {
+          flex-direction: column !important;
+          padding: 1rem 0 !important;
+
+      }
+
+      .trust-pilot-excellence-a-text {
+          width: 94% !important;
+      }
+  }
+
+
+
+
+
+
+  @media (max-width: 822px) {
+
+      .youtube-video-container {
+          height: 20rem !important;
+      }
+
+      .trust-pilot-excellence-a {
+          margin: 6rem auto;
+
+      }
+  }
+
+
+
+
+
+
+
+  @media (max-width: 785px) {
+      .particpants {
+          padding: 2rem 2rem !important;
+      }
+
+      .hero-section-main-div {
+          margin: 2rem 0 0 0 !important;
+      }
+
+      .hero-section-image-1 {
+          height: 20.3rem;
+      }
+  }
+
+
+
+
+
+
+  @media (max-width: 767px) {
+      .fees {
+          margin: 2rem 0 1rem 0 !important;
+          width: 80%;
+      }
+
+      .fees-button {
+          font-size: 16px !important;
+          padding: 7px 0.9rem !important;
+      }
+
+      .fees-text {
+
+          font-size: 16px !important;
+      }
+
+      .asthetics-image {
+          margin: 3rem auto;
+      }
+
+      .trust-pilot-excellence-a {
+          margin: 2rem auto 3rem;
+
+      }
+
+      .trust-pilot-excellence-a-heading {
+          font-size: 32px;
+          line-height: 40px;
+          margin-bottom: 1rem !important;
+      }
+
+      .client-say-paragraph {
+          font-size: 18px !important;
+      }
+
+      .youtube-video-container {
+          height: 18rem !important;
+      }
+
+      .youtube-video-tag {
+          height: 16.7rem !important;
+
+      }
+
+      .clients {
+          padding: 2.3rem 10px;
+          display: flex;
+          margin: 3rem 0;
+          flex-direction: column;
+          align-items: center !important;
+          grid-template-columns: repeat(1, 1fr);
+      }
+
+      .email-section-div {
+          flex-direction: column;
+      }
+
+      .email-section {
+          flex-direction: column;
+          gap: 10px;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .faq-heading {
+          font-weight: 700;
+          font-size: 20px;
+          text-align: center;
+          padding: 0.3rem 0 1rem;
+      }
+
+      .faq-btn {
+          padding: 6px 1.8rem !important;
+          margin: 0.7rem 0 0;
+          font-size: 16px !important;
+      }
+  }
+
+
+
+  @media (max-width: 690px) {
+
+      .trust-pilot-excellence-b-btn {
+          margin: 1.4rem 0 2rem;
+          padding: 0.4rem 1rem !important;
+      }
+  }
+
+
+
+
+  @media (max-width: 667px) {
+
+      .youtube-video-container {
+          height: 15rem !important;
+      }
+
+      .youtube-video-tag {
+          height: 13.5rem !important;
+
+      }
+  }
+
+
+
+
+
+  @media (max-width: 657px) {
+      .particpants-logo {
+          height: 2.5rem;
+      }
+
+      .particpants {
+          gap: 1rem;
+          padding: 1rem 0;
+          margin: 1rem 0;
+
+      }
+
+  }
+
+
+
+  @media (max-width: 550px) {
+
+      .youtube-video-container {
+          width: 95%;
+          height: 14.5rem !important;
+      }
+
+      .youtube-video-tag {
+          top: 3rem;
+          height: 13rem;
+          max-width: 80%;
+      }
+
+      .hero-section-image-1 {
+          height: 18.3rem;
+      }
+  }
+
+
+
+
+
+  @media (max-width: 500px) {
+
+      .youtube-video-container {
+          width: 95%;
+          height: 13rem !important;
+      }
+
+      .youtube-video-tag {
+          top: 2.5rem;
+      }
+
+      .asthetics-image {
+          margin: 1.3rem auto 3rem;
+      }
+
+
+      .trust-pilot-excellence-b-btn {
+          margin: 0.7rem 0 1.4rem;
+          font-size: 16px !important;
+          padding: 0.4rem 0.9rem !important;
+      }
+
+      .trust-pilot-excellence-a-heading {
+          font-size: 28px;
+          line-height: 35px;
+      }
+  }
+
+
+
+
+
+
+
+  @media (max-width : 412px) {
+      .hero-section-image-1 {
+          height: 14.3rem;
+      }
+
+      .particpants {
+          gap: 13px;
+          padding: 1rem 0;
+          margin: 1rem 0;
+
+      }
+
+      .hero-section-heading {
+          font-size: 18px !important;
+      }
+
+      .hero-section-text {
+          font-size: 14px !important;
+          line-height: 18px !important;
+      }
+
+      .particpants-logo {
+          height: 1.8rem;
+      }
+
+      .hero-section-image-2 {
+          display: block;
+          height: 18rem !important;
+      }
+
+      .hero-section-text {
+          padding: 0.9rem 0;
+          line-height: 24px !important;
+          font-size: 18px;
+      }
+
+      .hero-section-btn {
+          width: auto !important;
+          margin: 1rem 0 !important;
+          font-size: 16px !important;
+      }
+
+      .youtube-video-container {
+          height: 11.6rem !important;
+      }
+
+      .fees {
+          margin: 5rem 0 2rem 0;
+          width: 95%;
+      }
+
+      .fees-button {
+          font-size: 13px !important;
+          padding: 4px 0.9rem !important;
+      }
+
+      .fees-text {
+
+          font-size: 13px !important;
+      }
+
+      .AboutBuisnessSectionA-div {
+          width: 90%;
+          gap: 12px;
+
+      }
+
+      .trust-pilot-excellence-a-heading {
+          font-size: 26px;
+          line-height: 32px;
+      }
+
+      .youtube-video-tag {
+          height: 10.3rem !important;
+      }
+  }
+
+
+
+
+
+  @media (max-width: 360px) {
+
+      .youtube-video-container {
+          width: 95%;
+          height: 10rem !important;
+      }
+  }

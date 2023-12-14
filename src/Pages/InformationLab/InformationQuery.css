@@ -1,0 +1,51 @@
+@media(max-width:992px) {
+    .user-entity-section {
+        background-color: white !important;
+        height: 5rem !important;
+        padding: 0.6rem !important;
+        margin-bottom: 1rem !important;
+        align-items: center !important;
+    }
+
+    .user-entity {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0rem;
+    }
+
+    .buisness-name-gererator-div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem !important;
+    }
+
+    .llc-state-information {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width:767px) {
+
+    .llc-state-information {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .llc-state-information-text {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:400px) {
+    .llc-state-information-text {
+        font-size: 14px;
+    }
+}

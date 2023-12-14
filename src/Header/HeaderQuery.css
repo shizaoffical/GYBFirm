@@ -1,0 +1,44 @@
+/* HEADER QUERY//////////////// */
+.header-links3 {
+  display: none !important;
+}
+@media (max-width: 1205px) {
+  .nav-link {
+    margin: 0 5px;
+  }
+}
+@media (max-width: 1050px) {
+  .nav-link {
+    font-size: 14px;
+  }
+  .navbar-brand{
+    margin: 0 !important;
+  }
+}
+@media (max-width: 993px) {
+  .navbar {
+
+ height: auto;
+    padding: 20px 10px !important  ;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .header-links3 {
+    display: flex !important;
+  }
+  .header-links2,
+  .header-link4 {
+    display: none !important;
+  }
+}
+@media (max-width: 450px) {
+.header-tel-link{
+  display: none !important;
+}
+.navbar-btn2, .navbar-btn {
+ font-size: 14px !important;
+ width: 11rem !important;
+}
+
+}
